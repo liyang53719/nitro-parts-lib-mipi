@@ -3,7 +3,7 @@
 /* verilator lint_off CMPCONST */
 
 module mipi_csi2_des
-  #(parameter DATA_WIDTH=8, parameter MAX_LANES=1)
+  #(parameter DATA_WIDTH=10, parameter MAX_LANES=3)
   (
    input 	     resetb,
    input         enable,
